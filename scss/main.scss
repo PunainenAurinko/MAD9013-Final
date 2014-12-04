@@ -1,0 +1,23 @@
+/******************************************************************
+Site Name: Bootstrap Sports Site
+Author: Vladimir Tonkonogov
+
+Stylesheet: Main Stylesheet
+******************************************************************/
+
+// import normalize
+@import "normalize";
+
+//import variables
+@import "variables";
+
+// import mixins
+@import "mixins";
+
+/********************************************
+            BASELINE TEXT & BCKG STYLES
+********************************************/
+
+img {
+    width: 100%;
+}

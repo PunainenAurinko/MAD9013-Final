@@ -385,10 +385,10 @@ h4,
 h5,
 h6 {
   text-transform: uppercase;
-  font-family: prosto-one, serif;
+  font-family: quantico, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
-  color: rgba(172, 173, 171, 0.5); }
+  color: rgba(172, 173, 171, 0.7); }
 
 p {
   font-size: 1.25em;
@@ -409,23 +409,6 @@ hr {
 .header-nonbs {
   height: 412px;
   opacity: 0.8; }
-
-.home {
-  background: url(../img/slide-1.jpg) no-repeat 50% 45%;
-  background-size: cover; }
-
-.standings {
-  background: url(../img/slide-2.jpg) no-repeat 50% 51%;
-  background-size: cover; }
-
-.locations {
-  background: url(../img/slide-4.jpg) no-repeat 50% 55%;
-  background-size: cover; }
-
-.signup {
-  background: url(../img/slide-3.jpg) no-repeat 50% 22%;
-  background-size: cover;
-  opacity: 0.7; }
 
 .navbar-brand {
   text-transform: uppercase;
@@ -460,10 +443,6 @@ img {
 
 .brand-before {
   margin: 15px 0; }
-
-.brand-name {
-  margin: 0;
-  font-size: 4em; }
 
 .tagline-divider {
   margin: 15px auto 3px;
@@ -517,7 +496,7 @@ footer p {
     padding: 30px 0 10px;
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    font-family: prosto-one, sans-serif;
+    font-family: prosto-one, serif;
     font-size: 5em;
     font-weight: 700;
     line-height: normal;
@@ -541,6 +520,23 @@ footer p {
     font-weight: 400;
     letter-spacing: 3px;
     color: #fff; }
+
+  .home {
+    background: url(../img/slide-1.jpg) no-repeat 50% 45%;
+    background-size: cover; }
+
+  .standings {
+    background: url(../img/slide-2.jpg) no-repeat 50% 51%;
+    background-size: cover; }
+
+  .locations {
+    background: url(../img/slide-4.jpg) no-repeat 50% 55%;
+    background-size: cover; }
+
+  .signup {
+    background: url(../img/slide-3.jpg) no-repeat 50% 22%;
+    background-size: cover;
+    opacity: 0.7; }
 
   .navbar {
     border-radius: 0; }

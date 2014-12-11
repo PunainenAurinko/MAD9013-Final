@@ -23,6 +23,7 @@ body {
     background: rgba(172, 173, 171, 0.5);
     background-size: cover;
 }
+
 div {
     //border: 1px solid gray;
 }
@@ -37,7 +38,7 @@ h6 {
     font-family: $font-secondary;
     font-weight: 700;
     letter-spacing: 1px;
-    color: rgba(172, 173, 171, 0.5);
+    color: rgba(172, 173, 171, 0.7);
 }
 
 p {
@@ -47,7 +48,7 @@ p {
 }
 
 footer p {
-    font-family: $font-tertiary;
+    font-family: $font-secondary;
 }
 
 hr {
@@ -63,27 +64,6 @@ hr {
 .header-nonbs {
     height: 412px;
     opacity: 0.8;
-}
-
-.home {
-    background: url(../img/slide-1.jpg) no-repeat 50% 45%;
-    background-size: cover;
-}
-
-.standings {
-    background: url(../img/slide-2.jpg) no-repeat 50% 51%;
-    background-size: cover;
-}
-
-.locations {
-    background: url(../img/slide-4.jpg) no-repeat 50% 55%;
-    background-size: cover;
-}
-
-.signup {
-    background: url(../img/slide-3.jpg) no-repeat 50% 22%;
-    background-size: cover;
-    opacity: 0.7;
 }
 
 .navbar-brand {
@@ -103,7 +83,7 @@ hr {
 }
 
 .navbar-default .navbar-nav>li>a {
-    font-family: $font-tertiary;
+    font-family: $font-secondary;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -129,11 +109,6 @@ img {
     margin: 15px 0;
 }
 
-.brand-name {
-    margin: 0;
-    font-size: 4em;
-}
-
 .tagline-divider {
     margin: 15px auto 3px;
     max-width: 250px;
@@ -148,7 +123,7 @@ img {
 }
 
 .intro-text {
-    font-family: $font-tertiary;
+    font-family: $font-secondary;
     text-transform: uppercase;
     font-size: 1.25em;
     font-weight: 400;
@@ -156,7 +131,7 @@ img {
 }
 
 .table, th, .tert {
-    font-family: $font-tertiary;
+    font-family: $font-secondary;
     text-align: center;
 }
 
@@ -198,7 +173,7 @@ footer p {
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: prosto-one, sans-serif;
+        font-family: $font-tertiary;
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
@@ -225,6 +200,27 @@ footer p {
         font-weight: 400;
         letter-spacing: 3px;
         color: #fff;
+    }
+    
+    .home {
+        background: url(../img/slide-1.jpg) no-repeat 50% 45%;
+        background-size: cover;
+    }
+
+    .standings {
+        background: url(../img/slide-2.jpg) no-repeat 50% 51%;
+        background-size: cover;
+    }
+
+    .locations {
+        background: url(../img/slide-4.jpg) no-repeat 50% 55%;
+        background-size: cover;
+    }
+
+    .signup {
+        background: url(../img/slide-3.jpg) no-repeat 50% 22%;
+        background-size: cover;
+        opacity: 0.7;
     }
 
     .navbar {

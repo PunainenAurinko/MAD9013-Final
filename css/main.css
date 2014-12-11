@@ -375,7 +375,7 @@ th {
 ********************************************/
 body {
   font-family: questrial, sans-serif;
-  background-image: url(../img/slide-2.jpg);
+  background: rgba(172, 173, 171, 0.5);
   background-size: cover; }
 
 h1,
@@ -419,12 +419,13 @@ hr {
   background-size: cover; }
 
 .locations {
-  background: url(../img/slide-3.jpg) no-repeat 50% 22%;
+  background: url(../img/slide-4.jpg) no-repeat 50% 55%;
   background-size: cover; }
 
 .signup {
-  background: url(../img/slide-4.jpg) no-repeat 50% 55%;
-  background-size: cover; }
+  background: url(../img/slide-3.jpg) no-repeat 50% 22%;
+  background-size: cover;
+  opacity: 0.7; }
 
 .navbar-brand {
   text-transform: uppercase;

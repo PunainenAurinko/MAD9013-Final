@@ -375,7 +375,7 @@ th {
 ********************************************/
 body {
   font-family: questrial, sans-serif;
-  background: #364480; }
+  background-image: url(../img/slide-2.jpg); }
 
 h1,
 h2,
@@ -386,7 +386,8 @@ h6 {
   text-transform: uppercase;
   font-family: prosto-one, serif;
   font-weight: 700;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  color: rgba(172, 173, 171, 0.5); }
 
 p {
   font-size: 1.25em;
@@ -415,7 +416,7 @@ hr {
   letter-spacing: 3px; }
 
 .navbar-nav li:hover {
-  background: #364480; }
+  background: rgba(172, 173, 171, 0.5); }
 
 .navbar-default .navbar-nav > li > a {
   font-family: quantico, sans-serif; }

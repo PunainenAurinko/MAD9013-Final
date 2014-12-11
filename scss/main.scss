@@ -20,7 +20,7 @@ Stylesheet: Main Stylesheet
 
 body {
     font-family: $font-primary;
-    background: #364480;
+    background-image:url(../img/slide-2.jpg);
 }
 
 h1,
@@ -33,6 +33,7 @@ h6 {
     font-family: $font-secondary;
     font-weight: 700;
     letter-spacing: 1px;
+    color: rgba(172, 173, 171, 0.5);
 }
 
 p {
@@ -68,7 +69,7 @@ hr {
 }
 
 .navbar-nav li:hover {
-    background: #364480;
+    background: rgba(172, 173, 171, 0.5);
 }
 
 .navbar-default .navbar-nav>li>a {

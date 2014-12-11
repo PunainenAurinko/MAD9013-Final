@@ -451,6 +451,17 @@ img {
   background: #fff;
   background: rgba(255, 255, 255, 0.9); }
 
+.intro-text {
+  font-family: quantico, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: 400;
+  letter-spacing: 1px; }
+
+.table, th, .tert {
+  font-family: quantico, sans-serif;
+  text-align: center; }
+
 .img-border {
   float: none;
   margin: 0 auto 0;
@@ -470,7 +481,7 @@ footer p {
 
 @media screen and (max-width: 768px) {
   .header-nonbs {
-    height: 400px;
+    height: 412px;
     display: none; } }
 @media screen and (min-width: 768px) {
   .brand {

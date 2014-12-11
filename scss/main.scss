@@ -117,18 +117,18 @@ img {
     background: rgba(255,255,255,0.9);
 }
 
-//.intro-text {
-//    font-family: $font-secondary;
-//    text-transform: uppercase;
-//    font-size: 1.25em;
-//    font-weight: 400;
-//    letter-spacing: 1px;
-//}
+.intro-text {
+    font-family: $font-secondary;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
 
-//.table, th, .tert {
-//    font-family: $font-secondary;
-//    text-align: center;
-//}
+.table, th, .tert {
+    font-family: $font-secondary;
+    text-align: center;
+}
 
 .img-border {
     float: none;
@@ -154,7 +154,7 @@ footer p {
 @media screen and (max-width: 768px) {
     
     .header-nonbs {
-        height: 400px;
+        height: 412px;
         display: none;
     }
 }

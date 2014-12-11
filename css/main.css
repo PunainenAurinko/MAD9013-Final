@@ -375,7 +375,8 @@ th {
 ********************************************/
 body {
   font-family: questrial, sans-serif;
-  background-image: url(../img/slide-2.jpg); }
+  background-image: url(../img/slide-2.jpg);
+  background-size: cover; }
 
 h1,
 h2,
@@ -405,6 +406,26 @@ hr {
 .address-bar {
   display: none; }
 
+.header-nonbs {
+  height: 412px;
+  opacity: 0.8; }
+
+.home {
+  background: url(../img/slide-1.jpg) no-repeat 50% 45%;
+  background-size: cover; }
+
+.standings {
+  background: url(../img/slide-2.jpg) no-repeat 50% 51%;
+  background-size: cover; }
+
+.locations {
+  background: url(../img/slide-3.jpg) no-repeat 50% 22%;
+  background-size: cover; }
+
+.signup {
+  background: url(../img/slide-4.jpg) no-repeat 50% 55%;
+  background-size: cover; }
+
 .navbar-brand {
   text-transform: uppercase;
   font-weight: 900;
@@ -428,6 +449,9 @@ hr {
 
 .img-full {
   min-width: 100%; }
+
+img {
+  opacity: 0.7; }
 
 .brand-before,
 .brand-name {
@@ -479,6 +503,12 @@ footer p {
   margin: 0;
   padding: 50px 0; }
 
+@media screen and (max-width: 768px) {
+  .header-nonbs {
+    display: none; }
+
+  .brand-name {
+    font-size: 3rem; } }
 @media screen and (min-width: 768px) {
   .brand {
     display: inherit;

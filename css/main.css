@@ -406,10 +406,6 @@ hr {
 .address-bar {
   display: none; }
 
-.header-nonbs {
-  height: 412px;
-  display: none; }
-
 .navbar-brand {
   text-transform: uppercase;
   font-weight: 900;
@@ -472,6 +468,10 @@ footer p {
   margin: 0;
   padding: 50px 0; }
 
+@media screen and (max-width: 768px) {
+  .header-nonbs {
+    height: 400px;
+    display: none; } }
 @media screen and (min-width: 768px) {
   .brand {
     display: inherit;

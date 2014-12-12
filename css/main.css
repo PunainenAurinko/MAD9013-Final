@@ -461,9 +461,8 @@ img {
   font-weight: 400;
   letter-spacing: 1px; }
 
-.tert {
-  font-family: quantico, sans-serif;
-  text-align: center; }
+.table, th, .tert {
+  font-family: quantico, sans-serif; }
 
 .img-border {
   float: none;

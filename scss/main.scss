@@ -15,27 +15,39 @@ Stylesheet: Main Stylesheet
 @import "mixins";
 
 /********************************************
-            BASELINE TEXT & BCKG STYLES
+            DEBUGGING LAYOUT
+********************************************/
+
+//div {
+//    border: 1px solid gray;
+//}
+
+/********************************************
+            FONT FAMILIIES
 ********************************************/
 
 body {
     font-family: $font-primary;
+}
+
+.navbar-brand,
+.navbar-default .navbar-nav>li>a,
+.table,
+footer p {
+    font-family: $font-secondary;
+}
+
+@include headings {
+    font-family: $font-secondary;
+}
+
+body {
     background: rgba(172, 173, 171, 0.5);
     background-size: cover;
 }
 
-div {
-    //border: 1px solid gray;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+@include headings {
     text-transform: uppercase;
-    font-family: $font-secondary;
     font-weight: 700;
     letter-spacing: 1px;
     color: rgba(172, 173, 171, 0.7);
@@ -45,10 +57,6 @@ p {
     font-size: 1.25em;
     line-height: 1.6;
     color: #000;
-}
-
-footer p {
-    font-family: $font-secondary;
 }
 
 hr {
@@ -66,6 +74,7 @@ hr {
 }
 
 .navbar-brand {
+    
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
@@ -79,10 +88,6 @@ hr {
 
 .navbar-nav li:hover {
     background: rgba(172, 173, 171, 0.5);
-}
-
-.navbar-default .navbar-nav>li>a {
-    font-family: $font-secondary;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -122,16 +127,10 @@ img {
 }
 
 .intro-text {
-    font-family: $font-secondary;
     text-transform: uppercase;
     font-size: 1.25em;
     font-weight: 400;
     letter-spacing: 1px;
-}
-
-.table, th, .tert {
-    font-family: $font-secondary;
-    text-align: center;
 }
 
 .img-border {
@@ -153,13 +152,6 @@ footer {
 footer p {
     margin: 0;
     padding: 50px 0;
-}
-
-@media screen and (max-width: 768px) {
-    
-    .header-nonbs {
-        display: none;
-    }
 }
 
 @media screen and (min-width: 768px) {

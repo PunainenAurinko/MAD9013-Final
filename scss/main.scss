@@ -46,12 +46,29 @@ footer p {
 }
 
         /********************************************
-                FONT SIZES, COLORS & WEIGHTS
+                FONT SIZES, WEIGHTS & COLORS
         ********************************************/
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+}
 
 .navbar-league {
     font-weight: 900;
     letter-spacing: 2px;
+    color: #777;
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px; 
+}
+
+.navbar-league:hover {
+    text-decoration: none;
+    color: $color-normal;
+    opacity: 1;
 }
 
 .navbar-nav {
@@ -62,14 +79,9 @@ footer p {
 @include headings {
     font-weight: 700;
     letter-spacing: 1px;
-    color: rgba(172, 173, 171, 0.7);
+    color: $color-light;
 }
 
-p {
-    font-size: 1.25em;
-    line-height: 1.6;
-    color: #000;
-}
 
         /********************************************
                         TEXT TRANSFORMS
@@ -96,10 +108,7 @@ p {
 
 body {
     background: rgba(172, 173, 171, 0.5);
-    background-size: cover;
 }
-
-
 
 hr {
     max-width: 400px;
@@ -118,7 +127,7 @@ hr {
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-	color: #fff;
+	color: $color-white;
     background-color: transparent;
 } 
 

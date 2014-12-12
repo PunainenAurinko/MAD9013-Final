@@ -379,7 +379,7 @@ th {
 body {
   font-family: questrial, sans-serif; }
 
-.navbar-brand,
+.navbar-league,
 .navbar-default .navbar-nav > li > a,
 .table,
 footer p {
@@ -390,12 +390,12 @@ h4, h5, h6 {
   font-family: quantico, sans-serif; }
 
 @media screen and (min-width: 768px) {
-  .brand {
+  .league {
     font-family: prosto-one, serif; } }
 /********************************************
         FONT SIZES, COLORS & WEIGHTS
 ********************************************/
-.navbar-brand {
+.navbar-league {
   font-weight: 900;
   letter-spacing: 2px; }
 
@@ -421,11 +421,12 @@ h1, h2, h3,
 h4, h5, h6 {
   text-transform: uppercase; }
 
-.navbar-brand,
 .navbar-nav,
-.brand-before,
-.brand-name {
+.league-name {
   text-transform: uppercase; }
+
+.league-before {
+  text-transform: capitalize; }
 
 /********************************************
                 BACKGROUNDS
@@ -455,7 +456,7 @@ hr {
 img {
   opacity: 0.7; }
 
-.brand-before {
+.league-before {
   margin: 15px 0; }
 
 .box {
@@ -487,7 +488,7 @@ footer p {
   padding: 50px 0; }
 
 @media screen and (min-width: 768px) {
-  .brand {
+  .league {
     display: inherit;
     margin: 0;
     padding: 30px 0 10px;

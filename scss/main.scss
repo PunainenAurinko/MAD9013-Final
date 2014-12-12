@@ -84,22 +84,13 @@ p {
 
 
         /********************************************
-                        TEXT TRANSFORMS
+                        TEXT TRANSFORM
         ********************************************/
 
-// This could be done in Bootstrap by adding class="text-uppercase" to the respective tags, but given the amount of work it will take, I decided that it was not worthwile, and included these text transforms instead.
+// This could have been done in Bootstrap by adding class="text-uppercase" to the respective h tags, but there are so many of them that I though that it would be counterproducive, and added this text transform instead.
 
 @include headings {
     text-transform: uppercase;
-}
-
-.navbar-nav,
-.league-name {
-    text-transform: uppercase;
-}
-
-.league-before {
-    text-transform: capitalize;
 }
 
         /********************************************
@@ -107,6 +98,10 @@ p {
         ********************************************/
 
 body {
+    background: rgba(172, 173, 171, 0.5);
+}
+
+.navbar-nav li:hover {
     background: rgba(172, 173, 171, 0.5);
 }
 
@@ -119,23 +114,15 @@ hr {
     height: 400px;
 }
 
-
-
-.navbar-nav li:hover {
-    background: rgba(172, 173, 171, 0.5);
-}
-
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
 	color: $color-white;
     background-color: transparent;
 } 
 
-.img-full {
-    min-width: 100%;
-}
-
 img {
+    height: 100%;
+    width: 100%;
     opacity: 0.7;
 }
 

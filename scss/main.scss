@@ -1,8 +1,8 @@
 /******************************************************************
-Site Name: Bootstrap Sports Site
-Author: Vladimir Tonkonogov
+        Site Name: Bootstrap Sports Site
+        Author: Vladimir Tonkonogov
 
-Stylesheet: Main Stylesheet
+        Stylesheet: Main Stylesheet
 ******************************************************************/
 
 // import normalize
@@ -14,17 +14,17 @@ Stylesheet: Main Stylesheet
 // import mixins
 @import "mixins";
 
-/********************************************
-            DEBUGGING LAYOUT
-********************************************/
+        /********************************************
+                        DEBUGGING LAYOUT
+        ********************************************/
 
 //div {
 //    border: 1px solid gray;
 //}
 
-/********************************************
-            FONT FAMILIIES
-********************************************/
+        /********************************************
+                        FONT FAMILIES
+        ********************************************/
 
 body {
     font-family: $font-primary;
@@ -41,13 +41,25 @@ footer p {
     font-family: $font-secondary;
 }
 
-body {
-    background: rgba(172, 173, 171, 0.5);
-    background-size: cover;
+@media screen and (min-width: 768px) {
+    .brand { font-family: $font-tertiary; }
+}
+
+        /********************************************
+                FONT SIZES, COLORS & WEIGHTS
+        ********************************************/
+
+.navbar-brand {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 
 @include headings {
-    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
     color: rgba(172, 173, 171, 0.7);
@@ -59,32 +71,44 @@ p {
     color: #000;
 }
 
+        /********************************************
+                        TEXT TRANSFORMS
+        ********************************************/
+
+// This could be done in Bootstrap by adding class="text-uppercase" to the respective tags, but given the amount of work it will take, I decided that it was not worthwile, and included these text transforms instead.
+
+@include headings {
+    text-transform: uppercase;
+}
+
+.navbar-brand,
+.navbar-nav,
+.brand-before,
+.brand-name {
+    text-transform: uppercase;
+}
+
+        /********************************************
+                        BACKGROUNDS
+        ********************************************/
+
+body {
+    background: rgba(172, 173, 171, 0.5);
+    background-size: cover;
+}
+
+
+
 hr {
     max-width: 400px;
     border-color: #999999;
-}
-
-.brand,
-.address-bar {
-    display: none;
 }
 
 .header-nonbs {
     height: 400px;
 }
 
-.navbar-brand {
-    
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 2px;
-}
 
-.navbar-nav {
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 3px;
-}
 
 .navbar-nav li:hover {
     background: rgba(172, 173, 171, 0.5);
@@ -104,19 +128,8 @@ img {
     opacity: 0.7;
 }
 
-.brand-before,
-.brand-name {
-    text-transform: uppercase;
-}
-
 .brand-before {
     margin: 15px 0;
-}
-
-.tagline-divider {
-    margin: 15px auto 3px;
-    max-width: 250px;
-    border-color: #999999;
 }
 
 .box {
@@ -127,7 +140,6 @@ img {
 }
 
 .intro-text {
-    text-transform: uppercase;
     font-size: 1.25em;
     font-weight: 400;
     letter-spacing: 1px;
@@ -161,7 +173,6 @@ footer p {
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: $font-tertiary;
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
@@ -176,7 +187,7 @@ footer p {
         float: left;
         margin-right: 25px;
     }
-
+    
     .address-bar {
         display: inherit;
         margin: 0;
@@ -213,10 +224,6 @@ footer p {
 
     .navbar {
         border-radius: 0;
-    }
-
-    .navbar-header {
-        display: none;
     }
 
     .navbar {

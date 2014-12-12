@@ -1,8 +1,8 @@
 /******************************************************************
-Site Name: Bootstrap Sports Site
-Author: Vladimir Tonkonogov
+        Site Name: Bootstrap Sports Site
+        Author: Vladimir Tonkonogov
 
-Stylesheet: Main Stylesheet
+        Stylesheet: Main Stylesheet
 ******************************************************************/
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -371,10 +371,10 @@ th {
             MIXINS & EXTENSIONS
 ********************************************/
 /********************************************
-            DEBUGGING LAYOUT
+                DEBUGGING LAYOUT
 ********************************************/
 /********************************************
-            FONT FAMILIIES
+                FONT FAMILIES
 ********************************************/
 body {
   font-family: questrial, sans-serif; }
@@ -389,13 +389,22 @@ h1, h2, h3,
 h4, h5, h6 {
   font-family: quantico, sans-serif; }
 
-body {
-  background: rgba(172, 173, 171, 0.5);
-  background-size: cover; }
+@media screen and (min-width: 768px) {
+  .brand {
+    font-family: prosto-one, serif; } }
+/********************************************
+        FONT SIZES, COLORS & WEIGHTS
+********************************************/
+.navbar-brand {
+  font-weight: 900;
+  letter-spacing: 2px; }
+
+.navbar-nav {
+  font-weight: 400;
+  letter-spacing: 3px; }
 
 h1, h2, h3,
 h4, h5, h6 {
-  text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
   color: rgba(172, 173, 171, 0.7); }
@@ -405,26 +414,32 @@ p {
   line-height: 1.6;
   color: #000; }
 
+/********************************************
+                TEXT TRANSFORMS
+********************************************/
+h1, h2, h3,
+h4, h5, h6 {
+  text-transform: uppercase; }
+
+.navbar-brand,
+.navbar-nav,
+.brand-before,
+.brand-name {
+  text-transform: uppercase; }
+
+/********************************************
+                BACKGROUNDS
+********************************************/
+body {
+  background: rgba(172, 173, 171, 0.5);
+  background-size: cover; }
+
 hr {
   max-width: 400px;
   border-color: #999999; }
 
-.brand,
-.address-bar {
-  display: none; }
-
 .header-nonbs {
   height: 400px; }
-
-.navbar-brand {
-  text-transform: uppercase;
-  font-weight: 900;
-  letter-spacing: 2px; }
-
-.navbar-nav {
-  text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: 3px; }
 
 .navbar-nav li:hover {
   background: rgba(172, 173, 171, 0.5); }
@@ -440,17 +455,8 @@ hr {
 img {
   opacity: 0.7; }
 
-.brand-before,
-.brand-name {
-  text-transform: uppercase; }
-
 .brand-before {
   margin: 15px 0; }
-
-.tagline-divider {
-  margin: 15px auto 3px;
-  max-width: 250px;
-  border-color: #999999; }
 
 .box {
   margin-bottom: 20px;
@@ -459,7 +465,6 @@ img {
   background: rgba(255, 255, 255, 0.9); }
 
 .intro-text {
-  text-transform: uppercase;
   font-size: 1.25em;
   font-weight: 400;
   letter-spacing: 1px; }
@@ -488,7 +493,6 @@ footer p {
     padding: 30px 0 10px;
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    font-family: prosto-one, serif;
     font-size: 5em;
     font-weight: 700;
     line-height: normal;
@@ -532,9 +536,6 @@ footer p {
 
   .navbar {
     border-radius: 0; }
-
-  .navbar-header {
-    display: none; }
 
   .navbar {
     min-height: 0; }

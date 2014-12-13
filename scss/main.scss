@@ -114,8 +114,8 @@ body {
 }
     
 .home {
-    @media #{$sm-min} { background: url(../img/slide-1_1536.jpg) #{$home}; }
-    @media #{$md-min} { background: url(../img/slide-1_1536.jpg) #{$home}; }
+    @media #{$sm-min} { background: url(../img/slide-3_1536.jpg) #{$home}; }
+    @media #{$md-min} { background: url(../img/slide-2_1024.jpg) #{$home}; }
     @media #{$lg-min} { background: url(../img/slide-1_1536.jpg) #{$home}; }
     @media #{$xl-min} { background: url(../img/slide-1_1536.jpg) #{$home}; }
 }

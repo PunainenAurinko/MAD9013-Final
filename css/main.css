@@ -443,10 +443,10 @@ body {
 
 @media screen and (min-width: 768px) {
   .home {
-    background: url(../img/slide-1_1536.jpg) 50% 45% / cover no-repeat; } }
+    background: url(../img/slide-3_1536.jpg) 50% 45% / cover no-repeat; } }
 @media screen and (min-width: 992px) {
   .home {
-    background: url(../img/slide-1_1536.jpg) 50% 45% / cover no-repeat; } }
+    background: url(../img/slide-2_1024.jpg) 50% 45% / cover no-repeat; } }
 @media screen and (min-width: 1200px) {
   .home {
     background: url(../img/slide-1_1536.jpg) 50% 45% / cover no-repeat; } }

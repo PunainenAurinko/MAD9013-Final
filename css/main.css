@@ -387,10 +387,6 @@ h4, h5, h6 {
 /********************************************
         FONT SIZES, WEIGHTS & COLORS
 ********************************************/
-p {
-  font-size: 1.25em;
-  line-height: 1.6; }
-
 .navbar-league {
   font-weight: 900;
   letter-spacing: 2px;
@@ -415,6 +411,10 @@ h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 1px;
   color: rgba(172, 173, 171, 0.7); }
+
+p {
+  font-size: 1.25em;
+  line-height: 1.6; }
 
 /********************************************
                 TEXT TRANSFORM
@@ -446,52 +446,52 @@ body {
     background: url(../img/slide-3_1024.jpg) 50% 35% / cover no-repeat; } }
 @media screen and (min-width: 992px) {
   .home {
-    background: url(../img/slide-2_1024.jpg) 50% 51% / cover no-repeat; } }
+    background: url(../img/slide-2_1280.jpg) 50% 51% / cover no-repeat; } }
 @media screen and (min-width: 1200px) {
   .home {
     background: url(../img/slide-1_1536.jpg) 50% 45% / cover no-repeat; } }
 @media screen and (min-width: 1442px) {
   .home {
-    background: url(../img/slide-4_1536.jpg) 50% 22% / cover no-repeat; } }
+    background: url(../img/slide-4_1816.jpg) 50% 22% / cover no-repeat; } }
 
 @media screen and (min-width: 768px) {
   .standings {
     background: url(../img/slide-4_1024.jpg) 50% 22% / cover no-repeat; } }
 @media screen and (min-width: 992px) {
   .standings {
-    background: url(../img/slide-3_1024.jpg) 50% 35% / cover no-repeat; } }
+    background: url(../img/slide-3_1280.jpg) 50% 35% / cover no-repeat; } }
 @media screen and (min-width: 1200px) {
   .standings {
     background: url(../img/slide-2_1536.jpg) 50% 51% / cover no-repeat; } }
 @media screen and (min-width: 1442px) {
   .standings {
-    background: url(../img/slide-1_1536.jpg) 50% 45% / cover no-repeat; } }
+    background: url(../img/slide-1_1816.jpg) 50% 45% / cover no-repeat; } }
 
 @media screen and (min-width: 768px) {
   .locations {
     background: url(../img/slide-1_1024.jpg) 50% 45% / cover no-repeat; } }
 @media screen and (min-width: 992px) {
   .locations {
-    background: url(../img/slide-4_1024.jpg) 50% 22% / cover no-repeat; } }
+    background: url(../img/slide-4_1280.jpg) 50% 22% / cover no-repeat; } }
 @media screen and (min-width: 1200px) {
   .locations {
     background: url(../img/slide-3_1536.jpg) 50% 35% / cover no-repeat; } }
 @media screen and (min-width: 1442px) {
   .locations {
-    background: url(../img/slide-2_1536.jpg) 50% 51% / cover no-repeat; } }
+    background: url(../img/slide-2_1816.jpg) 50% 51% / cover no-repeat; } }
 
 @media screen and (min-width: 768px) {
   .signup {
     background: url(../img/slide-2_1024.jpg) 50% 51% / cover no-repeat; } }
 @media screen and (min-width: 992px) {
   .signup {
-    background: url(../img/slide-1_1024.jpg) 50% 45% / cover no-repeat; } }
+    background: url(../img/slide-1_1280.jpg) 50% 45% / cover no-repeat; } }
 @media screen and (min-width: 1200px) {
   .signup {
     background: url(../img/slide-4_1536.jpg) 50% 22% / cover no-repeat; } }
 @media screen and (min-width: 1442px) {
   .signup {
-    background: url(../img/slide-3_1536.jpg) 50% 35% / cover no-repeat; } }
+    background: url(../img/slide-3_1816.jpg) 50% 35% / cover no-repeat; } }
 
 /********************************************
                 REST of STYLES

@@ -369,21 +369,21 @@ th {
                 FONT FAMILIES
 ********************************************/
 body {
-  font-family: questrial, helvetica, arial, sans-serif; }
+  font-family: questrial, century gothic, helvetica neue, helvetica, arial, sans-serif; }
 
 .navbar-league,
 .navbar-default .navbar-nav > li > a,
 .table,
 footer p {
-  font-family: quantico, sans-serif; }
+  font-family: quantico, lucida grande, verdana, sans-serif; }
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: quantico, sans-serif; }
+  font-family: quantico, lucida grande, verdana, sans-serif; }
 
 @media screen and (min-width: 768px) {
   .league {
-    font-family: prosto-one, serif; } }
+    font-family: prosto-one, sans-serif; } }
 /********************************************
         FONT SIZES, WEIGHTS & COLORS
 ********************************************/

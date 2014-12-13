@@ -435,6 +435,13 @@ body {
 /********************************************
                 BACKGROUND IMAGES
 ********************************************/
+/*Home image downloaded from http://picjumbo.com/wp-content/uploads/IMG_4896-1300x866.jpg and downsized in Adobe Lightroom 5
+
+Standings image downloaded from http://picjumbo.com (direct link has been later removed from picjumbo) and downsized in Adobe Lightroom 5
+
+Locations image downloaded from http://picjumbo.com/wp-content/uploads/IMG_48931-1300x866.jpg and downsized in Adobe Lightroom 5
+
+Signup image downloaded from http://picjumbo.com/wp-content/uploads/IMG_4795-1300x866.jpg and downsized in Adobe Lightroom 5*/
 .home, .standings,
 .locations, .signup {
   opacity: 0.8;

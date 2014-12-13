@@ -123,7 +123,7 @@ hr {
 img {
     height: 100%;
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .league-before {
@@ -202,22 +202,25 @@ footer p {
     .home {
         background: url(../img/slide-1.jpg) no-repeat 50% 45%;
         background-size: cover;
+        opacity: 0.8;
     }
 
     .standings {
         background: url(../img/slide-2.jpg) no-repeat 50% 51%;
         background-size: cover;
+        opacity: 0.8;
     }
 
     .locations {
-        background: url(../img/slide-4.jpg) no-repeat 50% 55%;
+        background: url(../img/slide-3.jpg) no-repeat 50% 35%;
         background-size: cover;
+        opacity: 0.8;
     }
 
     .signup {
-        background: url(../img/slide-3.jpg) no-repeat 50% 22%;
+        background: url(../img/slide-4.jpg) no-repeat 50% 22%;
         background-size: cover;
-        opacity: 0.7;
+        opacity: 0.8;
     }
 
     .navbar {

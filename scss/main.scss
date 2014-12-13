@@ -55,9 +55,14 @@ footer p {
     color: #777;
     float: left;
     height: 50px;
-    padding: 15px 15px;
+    padding: 8px;
     font-size: 18px;
-    line-height: 20px; 
+    line-height: 10px; 
+}
+
+.navbar-toggle {
+    margin-top: 8px;
+    margin-right: 8px !important;
 }
 
 .navbar-league:hover {
@@ -108,14 +113,15 @@ body {
                         BACKGROUND IMAGES
         ********************************************/
 
-/*Home image downloaded from http://picjumbo.com/wp-content/uploads/IMG_4896-1300x866.jpg and downsized in Adobe Lightroom 5
+/*
+Home image downloaded from http://picjumbo.com/wp-content/uploads/IMG_4896-1300x866.jpg and downsized in Adobe Lightroom 5
 
 Standings image downloaded from http://picjumbo.com (direct link has been later removed from picjumbo) and downsized in Adobe Lightroom 5
 
 Locations image downloaded from http://picjumbo.com/wp-content/uploads/IMG_48931-1300x866.jpg and downsized in Adobe Lightroom 5
 
-Signup image downloaded from http://picjumbo.com/wp-content/uploads/IMG_4795-1300x866.jpg and downsized in Adobe Lightroom 5*/
-
+Signup image downloaded from http://picjumbo.com/wp-content/uploads/IMG_4795-1300x866.jpg and downsized in Adobe Lightroom 5
+*/
 
 @include pages {
     @include opacity(0.8);

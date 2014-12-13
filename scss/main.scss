@@ -115,8 +115,8 @@ body {
 .home {
     @media #{$sm-min} { background: url(../img/slide-3_1024.jpg) #{$locations}; }
     @media #{$md-min} { background: url(../img/slide-2_1280.jpg) #{$standings}; }
-    @media #{$lg-min} { background: url(../img/slide-1_1536.jpg) #{$home}; }
-    @media #{$xl-min} { background: url(../img/slide-4_1816.jpg) #{$signup}; }
+    @media #{$lg-min} { background: url(https://raw.githubusercontent.com/tonk0006/MAD9013-Final/gh-pages/img/Slide-1_1536.jpg) #{$home}; }
+    @media #{$xl-min} { background: url(../../img/slide-4_1816.jpg) #{$signup}; }
 }
 
 .standings {

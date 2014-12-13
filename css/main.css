@@ -449,10 +449,10 @@ body {
     background: url(../img/slide-2_1280.jpg) 50% 51% / cover no-repeat; } }
 @media screen and (min-width: 1200px) {
   .home {
-    background: url(../img/slide-1_1536.jpg) 50% 45% / cover no-repeat; } }
+    background: url(https://raw.githubusercontent.com/tonk0006/MAD9013-Final/gh-pages/img/Slide-1_1536.jpg) 50% 45% / cover no-repeat; } }
 @media screen and (min-width: 1446px) {
   .home {
-    background: url(../img/slide-4_1816.jpg) 50% 22% / cover no-repeat; } }
+    background: url(../../img/slide-4_1816.jpg) 50% 22% / cover no-repeat; } }
 
 @media screen and (min-width: 768px) {
   .standings {

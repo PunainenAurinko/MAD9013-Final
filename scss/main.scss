@@ -1,8 +1,8 @@
 /******************************************************************
-        Site Name: Bootstrap Sports Site
-        Author: Vladimir Tonkonogov
+Site Name: Bootstrap Sports Site
+Author: Vladimir Tonkonogov
 
-        Stylesheet: Main Stylesheet
+Stylesheet: Main Stylesheet
 ******************************************************************/
 
 // import normalize
@@ -105,6 +105,46 @@ body {
     background: rgba(172, 173, 171, 0.5);
 }
 
+        /********************************************
+                        BACKGROUND IMAGES
+        ********************************************/
+
+@include pages {
+    @include opacity(0.8);
+}
+    
+.home {
+    @media #{$sm-min} { background: url(../img/slide-1_1536.jpg) #{$home}; }
+    @media #{$md-min} { background: url(../img/slide-1_1536.jpg) #{$home}; }
+    @media #{$lg-min} { background: url(../img/slide-1_1536.jpg) #{$home}; }
+    @media #{$xl-min} { background: url(../img/slide-1_1536.jpg) #{$home}; }
+}
+
+.standings {
+    @media #{$sm-min} { background: url(../img/slide-2_1536.jpg) #{$standings}; }
+    @media #{$md-min} { background: url(../img/slide-2_1536.jpg) #{$standings}; }
+    @media #{$lg-min} { background: url(../img/slide-2_1536.jpg) #{$standings}; }
+    @media #{$xl-min} { background: url(../img/slide-2_1536.jpg) #{$standings}; }
+}
+
+.locations {
+    @media #{$sm-min} { background: url(../img/slide-3_1536.jpg) #{$locations}; }
+    @media #{$md-min} { background: url(../img/slide-3_1536.jpg) #{$locations}; }
+    @media #{$lg-min} { background: url(../img/slide-3_1536.jpg) #{$locations}; }
+    @media #{$xl-min} { background: url(../img/slide-3_1536.jpg) #{$locations}; }
+}   
+
+.signup {
+    @media #{$sm-min} { background: url(../img/slide-4_1536.jpg) #{$signup}; }
+    @media #{$md-min} { background: url(../img/slide-4_1536.jpg) #{$signup}; }
+    @media #{$lg-min} { background: url(../img/slide-4_1536.jpg) #{$signup}; }
+    @media #{$xl-min} { background: url(../img/slide-4_1536.jpg) #{$signup}; }
+}
+
+        /********************************************
+                        REST of STYLES
+        ********************************************/
+
 hr {
     max-width: 400px;
     border-color: #999999;
@@ -199,30 +239,6 @@ footer p {
         color: #fff;
     }
     
-    .home {
-        background: url(../img/slide-1.jpg) no-repeat 50% 45%;
-        background-size: cover;
-        opacity: 0.8;
-    }
-
-    .standings {
-        background: url(../img/slide-2.jpg) no-repeat 50% 51%;
-        background-size: cover;
-        opacity: 0.8;
-    }
-
-    .locations {
-        background: url(../img/slide-3.jpg) no-repeat 50% 35%;
-        background-size: cover;
-        opacity: 0.8;
-    }
-
-    .signup {
-        background: url(../img/slide-4.jpg) no-repeat 50% 22%;
-        background-size: cover;
-        opacity: 0.8;
-    }
-
     .navbar {
         border-radius: 0;
     }

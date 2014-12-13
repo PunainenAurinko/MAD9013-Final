@@ -452,11 +452,11 @@ body {
     background: url(../img/home-1536.jpg) 50% 45% / cover no-repeat; } }
 @media screen and (min-width: 1446px) {
   .home {
-    background: url(../img/signup-1816.jpg) 50% 22% / cover no-repeat; } }
+    background: url(../img/signup-1816.jpg) 50% 32% / cover no-repeat; } }
 
 @media screen and (min-width: 768px) {
   .standings {
-    background: url(../img/signup-1024.jpg) 50% 22% / cover no-repeat; } }
+    background: url(../img/signup-1024.jpg) 50% 32% / cover no-repeat; } }
 @media screen and (min-width: 992px) {
   .standings {
     background: url(../img/locations-1280.jpg) 50% 35% / cover no-repeat; } }
@@ -472,7 +472,7 @@ body {
     background: url(../img/home-1024.jpg) 50% 45% / cover no-repeat; } }
 @media screen and (min-width: 992px) {
   .locations {
-    background: url(../img/signup-1280.jpg) 50% 22% / cover no-repeat; } }
+    background: url(../img/signup-1280.jpg) 50% 32% / cover no-repeat; } }
 @media screen and (min-width: 1200px) {
   .locations {
     background: url(../img/locations-1536.jpg) 50% 35% / cover no-repeat; } }
@@ -488,7 +488,7 @@ body {
     background: url(../img/home-1280.jpg) 50% 45% / cover no-repeat; } }
 @media screen and (min-width: 1200px) {
   .signup {
-    background: url(../img/signup-1536.jpg) 50% 22% / cover no-repeat; } }
+    background: url(../img/signup-1536.jpg) 50% 32% / cover no-repeat; } }
 @media screen and (min-width: 1446px) {
   .signup {
     background: url(../img/locations-1816.jpg) 50% 35% / cover no-repeat; } }

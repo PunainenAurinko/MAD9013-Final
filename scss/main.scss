@@ -113,31 +113,31 @@ body {
 }
     
 .home {
-    @media #{$sm-min} { background: url(../img/slide-3_1024.jpg) #{$locations}; }
-    @media #{$md-min} { background: url(../img/slide-2_1280.jpg) #{$standings}; }
-    @media #{$lg-min} { background: url(../img/slide-1_1536.jpg) #{$home}; }
-    @media #{$xl-min} { background: url(../img/slide-4_1816.jpg) #{$signup}; }
+    @media #{$sm-min} { background: url(../img/locations-1024.jpg) #{$locations}; }
+    @media #{$md-min} { background: url(../img/standings-1280.jpg) #{$standings}; }
+    @media #{$lg-min} { background: url(../img/home-1536.jpg) #{$home}; }
+    @media #{$xl-min} { background: url(../img/signup-1816.jpg) #{$signup}; }
 }
 
 .standings {
-    @media #{$sm-min} { background: url(../img/slide-4_1024.jpg) #{$signup}; }
-    @media #{$md-min} { background: url(../img/slide-3_1280.jpg) #{$locations}; }
-    @media #{$lg-min} { background: url(../img/slide-2_1536.jpg) #{$standings}; }
-    @media #{$xl-min} { background: url(../img/slide-1_1816.jpg) #{$home}; }
+    @media #{$sm-min} { background: url(../img/signup-1024.jpg) #{$signup}; }
+    @media #{$md-min} { background: url(../img/locations-1280.jpg) #{$locations}; }
+    @media #{$lg-min} { background: url(../img/standings-1536.jpg) #{$standings}; }
+    @media #{$xl-min} { background: url(../img/home-1816.jpg) #{$home}; }
 }
 
 .locations {
-    @media #{$sm-min} { background: url(../img/slide-1_1024.jpg) #{$home}; }
-    @media #{$md-min} { background: url(../img/slide-4_1280.jpg) #{$signup}; }
-    @media #{$lg-min} { background: url(../img/slide-3_1536.jpg) #{$locations}; }
-    @media #{$xl-min} { background: url(../img/slide-2_1816.jpg) #{$standings}; }
+    @media #{$sm-min} { background: url(../img/home-1024.jpg) #{$home}; }
+    @media #{$md-min} { background: url(../img/signup-1280.jpg) #{$signup}; }
+    @media #{$lg-min} { background: url(../img/locations-1536.jpg) #{$locations}; }
+    @media #{$xl-min} { background: url(../img/standings-1816.jpg) #{$standings}; }
 }   
 
 .signup {
-    @media #{$sm-min} { background: url(../img/slide-2_1024.jpg) #{$standings}; }
-    @media #{$md-min} { background: url(../img/slide-1_1280.jpg) #{$home}; }
-    @media #{$lg-min} { background: url(../img/slide-4_1536.jpg) #{$signup}; }
-    @media #{$xl-min} { background: url(../img/slide-3_1816.jpg) #{$locations}; }
+    @media #{$sm-min} { background: url(../img/standings-1024.jpg) #{$standings}; }
+    @media #{$md-min} { background: url(../img/home-1280.jpg) #{$home}; }
+    @media #{$lg-min} { background: url(../img/signup-1536.jpg) #{$signup}; }
+    @media #{$xl-min} { background: url(../img/locations-1816.jpg) #{$locations}; }
 }
 
         /********************************************

@@ -219,6 +219,31 @@ footer p {
     padding: 50px 0;
 }
 
+//.visible-cstm {
+//    margin-left: 10%;
+//}
+
+//.table tbody td {
+//    @media #{$xs-max} { display: block; padding: 1.1rem; }
+//    
+//    &:before {
+//        @media #{$xs-max} { content: attr(data-th); display: inline-block; }
+//    }
+//}
+//
+//.table thead {
+//    @media #{$xs-max} { display: none; }
+//}
+//    
+//
+//.table thead th {
+//    @media #{$xs-max} { display: block; padding: 1.1rem; }
+//    
+//    &:before {
+//        @media #{$xs-max} { content: attr(data-th); display: inline-block; }
+//    }
+//}
+
 @media screen and (min-width: 768px) {
     .league {
         display: inherit;

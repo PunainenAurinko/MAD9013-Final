@@ -219,7 +219,7 @@ footer p {
     padding: 50px 0;
 }
 
-@media screen and (min-width: 768px) {
+@media #{$sm-min} {
     .league {
         display: inherit;
         margin: 0;
@@ -285,7 +285,7 @@ footer p {
     }
 }
 
-@media screen and (min-width:1200px) {
+@media #{$lg-min} {
     .box:after {
         content: '';
         display: table;

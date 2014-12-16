@@ -188,7 +188,7 @@ img {
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
-    background: #fff;
+    background: $color-white;
     background: rgba(255,255,255,0.9);
 }
 
@@ -196,17 +196,6 @@ img {
     font-size: 1.25em;
     font-weight: 400;
     letter-spacing: 1px;
-}
-
-.img-border {
-    float: none;
-    margin: 0 auto 0;
-    border: #999999 solid 1px;
-}
-
-.img-left {
-    float: none;
-    margin: 0 auto 0;
 }
 
 footer {
@@ -230,15 +219,6 @@ footer p {
         font-weight: 700;
         line-height: normal;
         color: #fff;
-    }
-    
-    .top-divider {
-        margin-top: 0;
-    }
-
-    .img-left {
-        float: left;
-        margin-right: 25px;
     }
     
     .address-bar {

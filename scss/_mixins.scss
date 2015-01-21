@@ -63,3 +63,19 @@
     filter: alpha(opacity=($opacity * 100));
     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=" + ($opacity * 100);
  }
+
+//---------------------------------------------
+//              Mixin Image Center
+//---------------------------------------------
+
+@mixin imgCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+//%imgCenter {
+//  display: block;
+//  margin-left: auto;
+//  margin-right: auto;
+//}
